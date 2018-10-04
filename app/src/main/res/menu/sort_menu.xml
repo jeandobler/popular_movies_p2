@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+
+
+        <item
+        android:id="@+id/menu_sort_popular"
+        android:enabled="true"
+        android:icon="@drawable/star"
+        android:title="@string/label_sort_popular"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_sort_toprated"
+        android:enabled="true"
+        android:checked="true"
+        android:icon="@drawable/fire"
+        android:title="@string/label_sort_toprated"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_sort_upcoming"
+        android:enabled="true"
+        android:icon="@drawable/calendar"
+        android:title="@string/label_sort_upcoming"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_sort_favorite"
+        android:enabled="true"
+        android:icon="@drawable/heart"
+        android:title="@string/label_sort_favorite"
+        app:showAsAction="ifRoom" />
+    </group>
+</menu>

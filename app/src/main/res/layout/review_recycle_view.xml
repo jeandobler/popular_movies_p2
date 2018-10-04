@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/paddin_divisor">
+
+    <TextView
+        android:id="@+id/tv_details_review_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/horizontal_margin"
+        android:textSize="@dimen/normal2_text"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_details_review_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/horizontal_margin"
+        android:textSize="@dimen/normal_text" />
+
+    <ImageView
+        android:id="@+id/iv_divider_review"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_marginTop="@dimen/vertical_division_margin"
+        android:layout_marginBottom="@dimen/vertical_division_margin"
+        android:background="@color/divider" />
+
+</LinearLayout>
